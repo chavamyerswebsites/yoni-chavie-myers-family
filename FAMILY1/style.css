@@ -1,0 +1,47 @@
+/*רקע כללי*/
+body{
+  background-image: url(maye7011.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+}
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+a:visited:hover{
+  color: aqua;
+  text-decoration: underline;
+}
+a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+a:active{
+  color: red;
+}
+/*כותרת*/
+h1{
+ color: #B478AB;
+ text-align:    center;
+ font-size: 2em;
+ cursor:     pointer;
+ border: 5px solid red;
+}
+
+
+ul{
+  list-style: none;
+  display: inline-block;
+  text-align:    center;
+   color:red;
+}
+
+
+ h2{
+   color: red;
+   text-align:  center;
+   * border: 5px solid #FFAAAA;  *
+    border: 5px solid rgba(0, 0, 255, .2);
+   cursor:      wait;
+}
